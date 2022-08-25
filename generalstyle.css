@@ -1,0 +1,21 @@
+.container{
+    display:flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    background-color: gray;
+}
+.list-item{
+    margin:0 auto;
+    width: 80vw;
+    height: 15vh;
+    margin-bottom: 1vh;
+    background-color: wheat;
+    display: grid;
+    place-content: center;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.list-item:hover{
+    background-color: beige;
+}
